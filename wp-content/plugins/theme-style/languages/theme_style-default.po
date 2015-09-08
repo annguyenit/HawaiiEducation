@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Styles\n"
+"POT-Creation-Date: 2014-12-10 10:00+0100\n"
+"PO-Revision-Date: 2014-12-10 10:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: QunaticaLabs <quanticalabs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins"
+"\\theme-style\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:259
+msgid "Theme Styles"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:332
+msgid "Save changes"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:529
+msgid "Enter valid color in HEX format."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:543
+msgid "Error"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:544
+msgid "Changes can not be saved."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:554
+msgid "Success"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:555
+msgid "All changes have been saved."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\theme-style/class/TS.ThemeStyle.class.php:634
+#, php-format
+msgid ""
+"<b>File %s cannot be created. Please make sure that this location is "
+"writable.</b>"
+msgstr ""

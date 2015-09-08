@@ -1,0 +1,40 @@
+.tt_timetable .hours
+{
+font-weight:normal;
+font-size:16px;
+}
+
+.tt_timetable th
+{
+color:#707070;
+}
+
+.tt_timetable td
+{
+color:#707070;
+}
+
+.tt_timetable .event a,
+.tt_timetable .event .event_header
+{
+font-family:Lato;
+font-weight:400;
+font-size:18px;
+line-height:1.4em;
+}
+
+.tt_timetable .event .before_hour_text,
+.tt_timetable .event .after_hour_text
+{
+font-size:14px;
+}
+
+.sf-timetable-menu li:hover ul a
+{
+color:#707070 !important;
+}
+
+.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected:hover
+{
+color:#56509F;
+}
