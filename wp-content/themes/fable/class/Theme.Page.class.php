@@ -106,8 +106,13 @@ class ThemePage
 			{
 				$Post=new ThemePost();
 				$Post->formatPostDate($post->post_date,$day,$month,$year);
+                                $currentlang = get_bloginfo('language');
+                                if ($currentlang == 'vi') {
+                                    $subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$day.'/'.$month.'/'.$year.'</h6>';
+                                }elseif($currentlang == 'en_US') {
+                                    $subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$month.' '.$day.', '.$year.'</h6>';
+                                }
 				
-				$subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$month.' '.$day.', '.$year.'</h6>';
 			}
 			
 			$html=

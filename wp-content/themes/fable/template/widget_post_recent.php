@@ -34,7 +34,14 @@
 				}
 ?>
 						<h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
-						<span><?php echo $month.' '.$day.', '.$year; ?></span>
+                                                <?php 
+                                                    $currentlang = get_bloginfo('language');
+                                                    if ($currentlang == 'vi') {
+                                                        echo '<span>'.$day.'/'.$month.'/'.$year.'</span>';
+                                                    }elseif($currentlang == 'en_US') {
+                                                        echo '<span>'.$month.' '.$day.', '.$year.'</span>';  
+                                                    }
+                                                ?>
 					</li>			
 <?php
 			}

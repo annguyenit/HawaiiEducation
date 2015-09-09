@@ -56,10 +56,18 @@ class ThemePost
 	
 	function formatPostDate($date,&$day,&$month,&$year,$type=1)
 	{
-		if($type==1)
-			list($day,$month,$year)=explode(' ',date_i18n('d F Y',strtotime($date)));
-		if($type==2)
-			list($day,$month,$year)=explode(' ',date_i18n('d M Y',strtotime($date)));
+            $currentlang = get_bloginfo('language');
+            if($type==1) {
+                if ($currentlang == 'vi') {
+                    //var_dump('<pre>', explode(' ',date_i18n('d m Y',strtotime($date))));
+                    list($day,$month,$year)=explode(' ',date_i18n('d m Y',strtotime($date)));
+                }elseif ($currentlang == 'en_US') {
+                    list($day,$month,$year)=explode(' ',date_i18n('d F Y',strtotime($date)));
+                }
+            }
+            if($type==2) {
+                list($day,$month,$year)=explode(' ',date_i18n('d M Y',strtotime($date)));
+            }
 	}
 	
 	/**************************************************************************/
