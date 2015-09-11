@@ -30,6 +30,10 @@ html.popup-open,
     z-index: 1999999999;
 }
 
+.popmake p{
+    padding: 0;
+}
+
 .popmake > .popmake-close {
     text-decoration: none;
     text-align: center;
