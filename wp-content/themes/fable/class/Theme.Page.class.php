@@ -109,10 +109,9 @@ class ThemePage
                                 $currentlang = get_bloginfo('language');
                                 if ($currentlang == 'vi') {
                                     $subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$day.'/'.$month.'/'.$year.'</h6>';
-                                }elseif($currentlang == 'en_US') {
+                                }elseif($currentlang == 'en-US') {
                                     $subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$month.' '.$day.', '.$year.'</h6>';
                                 }
-				
 			}
 			
 			$html=

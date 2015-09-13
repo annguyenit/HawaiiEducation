@@ -38,7 +38,7 @@
                                                     $currentlang = get_bloginfo('language');
                                                     if ($currentlang == 'vi') {
                                                         echo '<span>'.$day.'/'.$month.'/'.$year.'</span>';
-                                                    }elseif($currentlang == 'en_US') {
+                                                    }elseif($currentlang == 'en-US') {
                                                         echo '<span>'.$month.' '.$day.', '.$year.'</span>';  
                                                     }
                                                 ?>

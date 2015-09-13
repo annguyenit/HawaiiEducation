@@ -84,6 +84,19 @@
 					<div class="theme-footer-bottom theme-clear-fix">
 						<div class="theme-main theme-clear-fix">
 							<?php echo do_shortcode($content); ?>
+                                                        <?php 
+                                                            $currentlang = get_bloginfo('language');
+                                                            if ($currentlang == 'vi') {
+                                                        ?>
+                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'Công ty TNHH Hawaii. Copyright © 2015 ?ã ??ng ký b?n quy?n'; ?></div>
+                                                        <?php
+                                                            }elseif($currentlang == 'en-US') {
+                                                        ?>
+                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'Copyright © 2015 Hawaii Co.,Ltd - All rights reserved.'; ?></div>
+                                                        <?php
+                                                            }
+                                                        ?>
+                                                        
 						</div>
 					</div>
 <?php

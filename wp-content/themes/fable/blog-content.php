@@ -45,12 +45,12 @@
 						<h<?php echo $headerImportance; ?> class="theme-post-header">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 						</h<?php echo $headerImportance; ?>>
-						<div class="theme-post-date">
+                                                <div class="theme-post-date">
                                                     <?php 
                                                         $currentlang = get_bloginfo('language');
                                                         if ($currentlang == 'vi') {
                                                             echo $day.'/'.$month.'/'.$year;
-                                                        }elseif($currentlang == 'en_US') {
+                                                        }elseif($currentlang == 'en-US') {
                                                             echo $month.' '.$day.', '.$year;  
                                                         }
                                                     ?>
