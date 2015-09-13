@@ -88,11 +88,11 @@
                                                             $currentlang = get_bloginfo('language');
                                                             if ($currentlang == 'vi') {
                                                         ?>
-                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'C�ng ty TNHH Hawaii. Copyright � 2015 ?� ??ng k� b?n quy?n'; ?></div>
+                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'Công ty TNHH Hawaii. Copyright © 2015 đã đăng ký bản quyền'; ?></div>
                                                         <?php
                                                             }elseif($currentlang == 'en-US') {
                                                         ?>
-                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'Copyright � 2015 Hawaii Co.,Ltd - All rights reserved.'; ?></div>
+                                                                <div class="aligncenter pb-margin-top-20"><?php echo 'Copyright © 2015 Hawaii Co.,Ltd - All rights reserved.'; ?></div>
                                                         <?php
                                                             }
                                                         ?>
