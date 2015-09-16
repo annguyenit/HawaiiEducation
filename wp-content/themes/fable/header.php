@@ -61,8 +61,12 @@
 
 					if($template=='main.php')
 					{
-?>
-					<div class="theme-page-content theme-clear-fix">
+                                            if (is_category()) {
+                                                echo '<div class="theme-page-content theme-clear-fix theme-main">';
+                                            } else {
+                                                echo '<div class="theme-page-content theme-clear-fix">';
+                                            }
+?>					
 <?php					
 					}
 					else

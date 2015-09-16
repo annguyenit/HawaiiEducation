@@ -1,3 +1,19 @@
+<div class="language-switcher">
+    <a href='/' class='flag-vi <?php echo 'vi' == pll_current_language() ? 'active' : '' ?>'></a>
+    <a href='/en/home' class='flag-en <?php echo 'en' == pll_current_language() ? 'active' : '' ?>'></a>
+</div>
+
+<?php 
+    if ('vi' == pll_current_language()) {
+        $text = 'Đăng ký khóa học';
+        $class_trigger = 'trigger-open-popup-vi';
+    }
+    if ('en' == pll_current_language()) {
+        $text = "Register courses";
+        $class_trigger = 'trigger-open-popup-en';
+    }
+?>
+<a class="register-course <?php echo $class_trigger; ?>"><?php echo $text; ?></a>
 <?php
 		global $fable_parentPost;
 

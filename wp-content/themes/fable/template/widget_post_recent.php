@@ -35,12 +35,12 @@
 ?>
 						<h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
                                                 <?php 
-                                                    $currentlang = get_bloginfo('language');
-                                                    if ($currentlang == 'vi') {
-                                                        echo '<span>'.$day.'/'.$month.'/'.$year.'</span>';
-                                                    }elseif($currentlang == 'en-US') {
-                                                        echo '<span>'.$month.' '.$day.', '.$year.'</span>';  
-                                                    }
+//                                                    $currentlang = get_bloginfo('language');
+//                                                    if ($currentlang == 'vi') {
+//                                                        echo '<span>'.$day.'/'.$month.'/'.$year.'</span>';
+//                                                    }elseif($currentlang == 'en-US') {
+//                                                        echo '<span>'.$month.' '.$day.', '.$year.'</span>';  
+//                                                    }
                                                 ?>
 					</li>			
 <?php
