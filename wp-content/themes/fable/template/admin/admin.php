@@ -17,17 +17,10 @@
 					</div>
 
 					<div class="to-header-right">
-
 						<div>
-							<h3>Fable - Children Kindergarten WordPress Theme</h3>
-							<h6>Wordpress Theme ver. 1.3</h6>&nbsp;&nbsp;
-							<a href="<?php echo THEME_URL.'_documentation'; ?>" target="_blank">Documentation</a>
-							<a href="http://support.quanticalabs.com" target="_blank">Support Forum</a>
-							<a href="http://themeforest.net/item/fable-children-kindergarten-wordpress-theme/9294431?ref=QuanticaLabs" target="_blank">Theme site</a>
+                                                    <h3>Hawaii Education WordPress Theme</h3>
+                                                    <h6>Wordpress Theme ver. 1.0</h6>&nbsp;&nbsp;
 						</div>
-
-						<a href="http://quanticalabs.com" class="to-header-right-logo"></a>
-
 					</div>
 
 				</div>
@@ -128,18 +121,6 @@
 				</div>
 
 				<div class="to-footer to-clear-fix">
-
-					<div class="to-footer-left">
-
-						<ul class="to-social-list">
-							<li><a href="http://themeforest.net/user/QuanticaLabs?ref=quanticalabs" class="to-social-list-envato" title="Envato"></a></li>
-							<li><a href="http://www.facebook.com/QuanticaLabs" class="to-social-list-facebook" title="Facebook"></a></li>
-							<li><a href="https://twitter.com/quanticalabs" class="to-social-list-twitter" title="Twitter"></a></li>
-							<li><a href="http://quanticalabs.tumblr.com/" class="to-social-list-tumblr" title="Tumblr"></a></li>
-						</ul>
-
-					</div>
-
 					<div class="to-footer-right">
 						<input type="submit" value="<?php esc_attr_e('Save changes',THEME_DOMAIN); ?>" name="Submit" id="Submit" class="to-button"/>
 					</div>			
