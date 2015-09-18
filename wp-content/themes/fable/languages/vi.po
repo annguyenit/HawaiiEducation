@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fable - Children Kindergarten Theme\n"
-"POT-Creation-Date: 2015-09-18 23:47+0700\n"
-"PO-Revision-Date: 2015-09-18 23:47+0700\n"
+"POT-Creation-Date: 2015-09-18 23:45+0700\n"
+"PO-Revision-Date: 2015-09-18 23:53+0700\n"
 "Last-Translator: \n"
 "Language-Team: QuanticaLabs <quanticalabs@gmail.com>\n"
-"Language: en_US\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,16 +13,16 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: blog-content.php:141
 msgid "Continue reading"
-msgstr ""
+msgstr "Xem tiếp"
 
 #: blog-content.php:159 class/Theme.Notice.class.php:46
 msgid "Error"
-msgstr ""
+msgstr "Lỗi"
 
 #: blog-content.php:159
 msgid "No post found."
@@ -170,27 +170,27 @@ msgstr ""
 
 #: class/Theme.Comment.class.php:47
 msgid "Please enter your name."
-msgstr ""
+msgstr "Vui lòng nhập tên của bạn"
 
 #: class/Theme.Comment.class.php:53
 msgid "Please enter valid e-mail address."
-msgstr ""
+msgstr "Vui lòng nhập địa chỉ e-mail hợp lệ."
 
 #: class/Theme.Comment.class.php:59
 msgid "Please enter valid URL address."
-msgstr ""
+msgstr "Vui lòng nhập địa chỉ email hợp lệ"
 
 #: class/Theme.Comment.class.php:66
 msgid "Please enter your message."
-msgstr ""
+msgstr "Vui lòng nhập tin nhắn của bạn"
 
 #: class/Theme.Comment.class.php:128
 msgid "Your comment has been added."
-msgstr ""
+msgstr "Bình luận của bạn đã được thêm vào."
 
 #: class/Theme.Comment.class.php:133
 msgid "Your comment could not be added."
-msgstr ""
+msgstr "Bình luận của bạn không thể thêm được."
 
 #: class/Theme.Comment.class.php:187
 #, php-format
@@ -199,7 +199,7 @@ msgstr ""
 
 #: class/Theme.Comment.class.php:191
 msgid "Reply"
-msgstr ""
+msgstr "Trả lời"
 
 #: class/Theme.Easing.class.php:14
 msgid "easeInQuad"
@@ -963,7 +963,7 @@ msgstr ""
 
 #: single-content.php:125
 msgid "Leave a reply"
-msgstr ""
+msgstr "Để lại lời nhắn"
 
 #: single-content.php:159
 msgid "Name"
@@ -979,11 +979,11 @@ msgstr ""
 
 #: single-content.php:183
 msgid "Comment"
-msgstr ""
+msgstr "Bình luận"
 
 #: single-content.php:191
 msgid "Leave Your Reply"
-msgstr ""
+msgstr "Để lại lời nhắn"
 
 #: single-content.php:192
 msgid "Cancel reply"
@@ -991,7 +991,7 @@ msgstr ""
 
 #: single-content.php:195
 msgid "Post comment"
-msgstr ""
+msgstr "Bình luận"
 
 #: template/admin/admin.php:35
 msgid "General settings"
@@ -2611,11 +2611,11 @@ msgstr ""
 
 #: ts_config.php:1677
 msgid "Button \"Continue reading\""
-msgstr ""
+msgstr "Xem tiếp"
 
 #: ts_config.php:1678
 msgid "Button \"Continue reading\" colors"
-msgstr ""
+msgstr "Xem tiếp"
 
 #: ts_config.php:1719 ts_config.php:1774 ts_config.php:1944 ts_config.php:2627
 #: ts_config.php:2793 ts_config.php:2930 ts_config.php:3193 ts_config.php:3286

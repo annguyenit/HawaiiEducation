@@ -122,7 +122,7 @@
 		{
 ?>
 			<div class="theme-post-section-button">
-				<a href="<?php the_permalink(); ?>" class="theme-post-button-continue" id="theme-post-button-leave-a-reply"><?php echo esc_html('Leave a reply'); ?><i class="pb-button-arrow pb-button-arrow-right"></i></a>
+				<a href="<?php the_permalink(); ?>" class="theme-post-button-continue" id="theme-post-button-leave-a-reply"><?php echo __('Leave a reply',THEME_DOMAIN); ?><i class="pb-button-arrow pb-button-arrow-right"></i></a>
 			</div>	
 <?php
 		}
