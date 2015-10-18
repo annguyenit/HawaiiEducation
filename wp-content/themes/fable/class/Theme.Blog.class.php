@@ -7,6 +7,8 @@ class ThemeBlog
 {
 	/**************************************************************************/
 	
+        private $_categoryIds = '';
+        
 	function __construct()
 	{
 		$this->sortPostBlogField=array
@@ -22,6 +24,18 @@ class ThemeBlog
 			'desc'			=>	array(__('Descending',THEME_DOMAIN))
 		);		
 	}
+        
+        function setCategoryIds($ids = '')
+        {
+            if (!empty($ids)) {
+                $this->_categoryIds = $ids;
+            }
+        }
+        
+        function getCategoryIds()
+        {
+            return $this->_categoryIds;
+        }
 	
 	/**************************************************************************/
 	
@@ -72,7 +86,11 @@ class ThemeBlog
 			'orderby'			=>	ThemeOption::getOption('blog_sort_field'),
 			'order'				=>	ThemeOption::getOption('blog_sort_direction')		
 		);
-		
+                
+                if ('' != $this->getCategoryIds()) 
+                {
+                    $argument['cat'] = $this->getCategoryIds();
+                }
 		$query=new WP_Query(array_merge($argument,$default));
 		return($query);
 	}
