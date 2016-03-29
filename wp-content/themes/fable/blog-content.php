@@ -85,7 +85,7 @@
 				
 					default:
 						
-						if(has_post_thumbnail())
+						/*if(has_post_thumbnail())
 						{					
 ?>
 					<div class="theme-post-section-icon">
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 <?php						
-						}						
+						}*/						
 				}
 				
 				if(in_array(true,$visibleOption))
